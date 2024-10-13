@@ -42,7 +42,7 @@ function CollapsibleNavbar() {
             <Nav className="me-auto mx-auto justify-content-center">
               <Nav.Link className="mx-3 font-weight-bold text-white" href="/">Home</Nav.Link>
               <Nav.Link className="mx-3 font-weight-bold text-white" href="/favorites">Favourite</Nav.Link>
-              <Nav.Link className="mx-3 font-weight-bold text-white" href="#">Contacts</Nav.Link>
+              <Nav.Link className="mx-3 font-weight-bold text-white" href="/blog">Blog</Nav.Link>
 
               {username ? (
                 <NavDropdown

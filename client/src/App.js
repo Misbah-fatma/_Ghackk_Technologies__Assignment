@@ -7,7 +7,7 @@ import WebtoonDetail from './Components/WebToonDetails';
 import Favorites from './Components/Favourite';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-
+import Blog from './Components/Blog';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
           <Route path="/webtoon/:id" element={<WebtoonDetail />} />
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/webtoon/:id" element={<WebtoonDetail />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
         <Footer/>
       </div>
