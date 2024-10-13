@@ -11,7 +11,7 @@ import Blog from './Components/Blog';
 
 function App() {
   return (
-    <Router>
+
       <div className="App">
         <Navbar/>
         <Routes>
@@ -25,7 +25,7 @@ function App() {
         </Routes>
         <Footer/>
       </div>
-    </Router>
+
   );
 }
 
